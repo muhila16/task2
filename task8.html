@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      .card {
+        background: linear-gradient(to bottom right, #e39784, #fc3a64);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container mt-4">
+      <div class="card">
+        <div class="card-body">
+          <form>
+            <div class="form-group">
+              <label for="fullname">First Name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="fullname"
+                placeholder="Enter First Name"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="lastname">Last Name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="lastname"
+                placeholder="Enter Last Name"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="Enter Email"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="password1">Password</label>
+              <input
+                type="password"
+                class="form-control"
+                id="password1"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="password2">Re-enter Password</label>
+              <input
+                type="password"
+                class="form-control"
+                id="password2"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label>Gender</label>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="gender"
+                  id="male"
+                  value="Male"
+                />
+                <label class="form-check-label" for="male">Male</label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="gender"
+                  id="female"
+                  value="Female"
+                />
+                <label class="form-check-label" for="female">Female</label>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="tele">Phone Number</label>
+              <input type="tel" class="form-control" id="tele" />
+            </div>
+            <div class="form-group">
+              <label for="add">Address</label>
+              <input type="text" class="form-control" id="add" />
+            </div>
+            <div class="form-group">
+              <label for="state">State</label>
+              <input type="text" class="form-control" id="state" />
+            </div>
+            <div class="form-group">
+              <label for="country">Country</label>
+              <select class="form-control" id="country">
+                <option>Choose your country</option>
+                <option>India</option>
+                <option>France</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Languages known</label>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="lang1"
+                  name="languages"
+                  value="English"
+                />
+                <label class="form-check-label" for="lang1">English</label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="lang2"
+                  name="languages"
+                  value="Kannada"
+                />
+                <label class="form-check-label" for="lang2">Kannada</label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="lang3"
+                  name="languages"
+                  value="Tamil"
+                />
+                <label class="form-check-label" for="lang3">Tamil</label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="lang4"
+                  name="languages"
+                  value="Telugu"
+                />
+                <label class="form-check-label" for="lang4">Telugu</label>
+              </div>
+            </div>
+            <div class="form-check">
+              <input
+                type="checkbox"
+                class="form-check-input"
+                id="true"
+                name="true"
+                value="true"
+              />
+              <label class="form-check-label" for="true"
+                >Hereby I declare all the given details are true</label
+              >
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
